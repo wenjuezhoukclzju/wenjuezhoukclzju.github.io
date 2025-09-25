@@ -1,0 +1,68 @@
+# _config.yml
+
+# 主题设置
+remote_theme: mmistakes/minimal-mistakes@4.24.0
+minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint"
+
+# 网站基本信息
+title: "Yishu Zhang Research Group"
+title_separator: "|"
+subtitle: "School of Integrated Circuits, Zhejiang University"
+name: "Prof. Yishu Zhang"
+description: "We research emerging memristive devices, neuromorphic computing, and 55nm CMOS technology."
+url: "https://wenjuezhoukclzju.github.io" # 替换为你的仓库地址
+baseurl: ""
+
+# 导航栏链接
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "single"
+      author_profile: true
+
+# 主菜单导航
+navigation:
+  - title: "Home"
+    url: /
+  - title: "Research"
+    url: /research/
+  - title: "Team"
+    url: /team/
+  - title: "Publications"
+    url: /publications/
+  - title: "News"
+    url: /news/
+  - title: "Contact"
+    url: /contact/
+
+# 插件（GitHub Pages支持的安全插件）
+plugins:
+  - jekyll-include-cache
+
+# 作者信息（用于页脚等位置）
+author:
+  name: "Yishu Zhang"
+  avatar: "/assets/images/bio-photo.jpg" # 后续可以上传一张导师的照片
+  bio: "Hundred Talents Researcher, Assistant Professor"
+  location: "Hangzhou, Zhejiang, China"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:zhangyishu@zju.edu.cn"
+    - label: "ORCID"
+      icon: "fas fa-fw fa-key"
+      url: "https://orcid.org/0000-000X-XXXX-XXXX" # 请替换为真实的ORCID
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/wenjuezhoukclzju" # 替换为你的GitHub地址
+
+footer:
+  links:
+    - label: "ZJU Homepage"
+      icon: "fas fa-fw fa-link"
+      url: "https://www.zju.edu.cn/"
+    - label: "School of IC"
+      icon: "fas fa-fw fa-university"
+      url: "https://ic.zju.edu.cn/"
